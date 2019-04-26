@@ -4,6 +4,10 @@ body {
   line-height: 34px;
   color: #777777;
   background: url("../images/stardust.png");
+  margin: 0;
+  display: flex; 
+  flex-direction: column; /* this helps it to stack things on top from top to bottom in the body itself */
+  min-height: 100vh; /*vh stands for viewport height; essentially it's divided into 100 stripes across any given size screen; */
 }
 
 * {
@@ -122,6 +126,8 @@ h3, h2 {
 #main-container {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
+    flex: 1; /*this makes the main container be the thing that changes size, not other things */
+  
 }
 
 .main-section {
@@ -267,3 +273,6 @@ nav {
   width: 540px;
   margin: 20px 20px 0px 20px;
 }
+
+
+
