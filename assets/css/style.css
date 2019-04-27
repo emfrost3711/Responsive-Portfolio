@@ -30,7 +30,7 @@ p {
   margin-bottom: 20px;
 }
 
-p:last-child {
+p:last-child { /* what does last-child, first-child, mean?*/
   margin-bottom: 0;
 }
 
@@ -58,7 +58,7 @@ h3 {
 
 #masthead {
   position: fixed;
-  z-index: 99;
+  z-index: 99; /* what does z-index do? where do we typically put it? */
   width: 100%;
   margin: 0 0 30px;
   overflow: auto;
@@ -76,7 +76,7 @@ h3 {
   font-weight: 700;
   line-height: 90px;
   color: #ffffff;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   background: #4aaaa5;
 }
@@ -112,6 +112,8 @@ footer {
   background: #666666;
   border-top: 8px solid #4aaaa5;
   height: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
 h3, h2 {
@@ -125,7 +127,7 @@ h3, h2 {
 
 #main-container {
   padding-top: 130px;
-  min-height: calc(100vh - 70px);
+  min-height: calc(100vh - 70px); /* ??? how can you subtract px from a vh? what function does this serve??*/
     flex: 1; /*this makes the main container be the thing that changes size, not other things */
   
 }
@@ -134,8 +136,8 @@ h3, h2 {
   float: left;
   width: 100%;
   max-width: 960px;
+  margin: 60px 40px 40px 0;
   padding: 30px;
-  margin: 0 0 40px;
   background: #ffffff;
   border: 1px solid #dddddd;
 }
@@ -256,8 +258,8 @@ input[type=submit] {
   }
 }
 #logo {
-  width: 100%;
-  padding: 0;
+  width: 38%;
+  padding: 0 0 0 25px;
   margin: 0;
 }
 nav {
