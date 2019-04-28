@@ -243,21 +243,19 @@ input[type=submit] {
 }
 @media screen and (max-width: 768px) {
 
-  nav {
+  .nav {
     float: right; 
-    margin-right: 20px;
     color: #ccc;
     font-size: 18px;
-    width:38%;
+    width:44%;
   }
   #main-container {
     width: 88%;
-  
   }
 
   .main-section {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 100px;
   }
 }
 
@@ -267,13 +265,13 @@ input[type=submit] {
   }
 
 #logo {
-  width: 50%;
+  width: 100%;
   padding: 0 0 0 25px;
   margin: 0;
   text-align: center;
 }
 .nav {
-  width: 38%;
+  width: 100%;
   background-color: #fff;
   color: #ccc;
   font-size: 18px;
@@ -290,6 +288,11 @@ input[type=submit] {
   margin: 0 auto;
 }
 
+.main-section {
+  width: 100%;
+  margin-top: 100px;
+}
+
 .auth-image {
   width: 100%;
 }
@@ -301,5 +304,5 @@ input[type=submit] {
   margin: 20px 0 25px;
   overflow: auto;
 }
-}
 
+}
