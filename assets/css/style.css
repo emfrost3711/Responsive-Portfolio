@@ -1,3 +1,4 @@
+
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
@@ -30,7 +31,7 @@ p {
   margin-bottom: 20px;
 }
 
-p:last-child { /* what does last-child, first-child, mean?*/
+p:last-child { 
   margin-bottom: 0;
 }
 
@@ -58,7 +59,7 @@ h3 {
 
 #masthead {
   position: fixed;
-  z-index: 99; /* what does z-index do? where do we typically put it? */
+  z-index: 99; 
   width: 100%;
   margin: 0 0 30px;
   overflow: auto;
